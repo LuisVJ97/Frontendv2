@@ -1,0 +1,514 @@
+{
+  "batches": [
+    {
+      "id": 1,
+      "grape_variety": "Cabernet Sauvignon",
+      "harvest_date": "2023-08-15",
+      "grape_quantity": 1200,
+      "vineyard_origin": "Viñedos del Sol",
+      "current_status": "Fermentation",
+      "process_start_date": "2023-08-16",
+      "final_volume": "800"
+    },
+    {
+      "id": 2,
+      "grape_variety": "Chardonnay",
+      "harvest_date": "2023-09-10",
+      "grape_quantity": 1500,
+      "vineyard_origin": "Viña Verde",
+      "current_status": "Aging",
+      "process_start_date": "2023-09-12",
+      "final_volume": 1100
+    },
+    {
+      "id": 3,
+      "grape_variety": "Merlot",
+      "harvest_date": "2023-07-20",
+      "grape_quantity": 1000,
+      "vineyard_origin": "Viñedos del Norte",
+      "current_status": "Bottled",
+      "process_start_date": "2023-07-21",
+      "final_volume": 800
+    },
+    {
+      "id": 4,
+      "grape_variety": "Pinot Noir",
+      "harvest_date": "2023-10-05",
+      "grape_quantity": 1300,
+      "vineyard_origin": "Viña Azul",
+      "current_status": "Fermentation",
+      "process_start_date": "2023-10-06",
+      "final_volume": 950
+    },
+    {
+      "id": 5,
+      "grape_variety": "Syrah",
+      "harvest_date": "2023-09-25",
+      "grape_quantity": 1400,
+      "vineyard_origin": "Viñedos del Sur",
+      "current_status": "Clarification",
+      "process_start_date": "2023-09-26",
+      "final_volume": 1050
+    },
+    {
+      "id": 6,
+      "grape_variety": "Sauvignon Blanc",
+      "harvest_date": "2023-08-10",
+      "grape_quantity": 1100,
+      "vineyard_origin": "Viñedos del Este",
+      "current_status": "Pressing",
+      "process_start_date": "2023-08-11",
+      "final_volume": 900
+    },
+    {
+      "id": 7,
+      "grape_variety": "Malbec",
+      "harvest_date": "2023-07-15",
+      "grape_quantity": 900,
+      "vineyard_origin": "Viñedos del Oeste",
+      "current_status": "Aging",
+      "process_start_date": "2023-07-16",
+      "final_volume": 700
+    },
+    {
+      "id": 8,
+      "grape_variety": "Zinfandel",
+      "harvest_date": "2023-10-20",
+      "grape_quantity": 1600,
+      "vineyard_origin": "Viñedos del Centro",
+      "current_status": "Bottled",
+      "process_start_date": "2023-10-21",
+      "final_volume": 1200
+    },
+    {
+      "id": 9,
+      "grape_variety": "Grenache",
+      "harvest_date": "2023-09-05",
+      "grape_quantity": 1250,
+      "vineyard_origin": "Viñedos del Sur",
+      "current_status": "Fermentation",
+      "process_start_date": "2023-09-06",
+      "final_volume": 950
+    },
+    {
+      "id": 10,
+      "grape_variety": "Tempranillo",
+      "harvest_date": "2023-08-25",
+      "grape_quantity": 1300,
+      "vineyard_origin": "Viñedos del Este",
+      "current_status": "Clarification",
+      "process_start_date": "2023-08-26",
+      "final_volume": 1000
+    }
+  ],
+  "fermentation": [
+    {
+      "id": 101,
+      "batch_id": 1,
+      "start_date": "2023-08-16",
+      "end_date": "2023-08-22",
+      "average_temperature": 18.5,
+      "initial_density": 1.09,
+      "final_density": 0.998,
+      "initial_ph": 3.6,
+      "final_ph": "3.6",
+      "residual_sugar": "1.5"
+    },
+    {
+      "id": 102,
+      "batch_id": 2,
+      "start_date": "2023-09-12",
+      "end_date": "2023-09-18",
+      "average_temperature": 17,
+      "initial_density": 1.085,
+      "final_density": 0.995,
+      "initial_ph": 3.5,
+      "final_ph": 3.3,
+      "residual_sugar": 1.8
+    },
+    {
+      "id": 103,
+      "batch_id": 3,
+      "start_date": "2023-07-21",
+      "end_date": "2023-07-27",
+      "average_temperature": 19,
+      "initial_density": 1.092,
+      "final_density": 0.997,
+      "initial_ph": 3.7,
+      "final_ph": 3.5,
+      "residual_sugar": 3
+    },
+    {
+      "id": 104,
+      "batch_id": 4,
+      "start_date": "2023-10-06",
+      "end_date": "2023-10-12",
+      "average_temperature": 18.2,
+      "initial_density": 1.088,
+      "final_density": 0.996,
+      "initial_ph": 3.6,
+      "final_ph": 3.4,
+      "residual_sugar": 2.1
+    },
+    {
+      "id": 105,
+      "batch_id": 5,
+      "start_date": "2023-09-26",
+      "end_date": "2023-10-02",
+      "average_temperature": 17.8,
+      "initial_density": 1.087,
+      "final_density": 0.994,
+      "initial_ph": 3.5,
+      "final_ph": 3.3,
+      "residual_sugar": 2
+    }
+  ],
+  "pressing": [
+    {
+      "id": 201,
+      "batch_id": 1,
+      "pressing_date": "2023-08-15",
+      "must_volume": 850,
+      "press_type": "Mechanical",
+      "applied_pressure": 1.2
+    },
+    {
+      "id": 202,
+      "batch_id": 2,
+      "pressing_date": "2023-09-11",
+      "must_volume": 1200,
+      "press_type": "Pneumatic",
+      "applied_pressure": "1.5"
+    },
+    {
+      "id": 203,
+      "batch_id": 3,
+      "pressing_date": "2023-07-20",
+      "must_volume": 950,
+      "press_type": "Manual",
+      "applied_pressure": 0.9
+    },
+    {
+      "id": 204,
+      "batch_id": 4,
+      "pressing_date": "2023-10-04",
+      "must_volume": 1100,
+      "press_type": "Mechanical",
+      "applied_pressure": 1.3
+    },
+    {
+      "id": 205,
+      "batch_id": 5,
+      "pressing_date": "2023-09-24",
+      "must_volume": 1000,
+      "press_type": "Pneumatic",
+      "applied_pressure": 1.4
+    }
+  ],
+  "clarification": [
+    {
+      "id": 301,
+      "batch_id": 1,
+      "clarification_date": "2023-10-15",
+      "products_used": "Gelatin",
+      "clarification_method": "Filtration",
+      "filtration_date": "2023-09-20",
+      "clarity_level": 1.5
+    },
+    {
+      "id": 302,
+      "batch_id": 2,
+      "clarification_date": "2023-09-15",
+      "products_used": "Gelatin",
+      "clarification_method": "Filtration",
+      "filtration_date": "2023-09-20",
+      "clarity_level": 0.8
+    },
+    {
+      "id": 303,
+      "batch_id": 3,
+      "clarification_date": "2023-07-25",
+      "products_used": "Egg whites",
+      "clarification_method": "Centrifugation",
+      "filtration_date": "2023-07-30",
+      "clarity_level": 1.2
+    },
+    {
+      "id": 304,
+      "batch_id": 4,
+      "clarification_date": "2023-10-10",
+      "products_used": "Bentonite",
+      "clarification_method": "Filtration",
+      "filtration_date": "2023-10-15",
+      "clarity_level": 1
+    },
+    {
+      "id": 305,
+      "batch_id": 5,
+      "clarification_date": "2023-09-28",
+      "products_used": "Isinglass",
+      "clarification_method": "Decantation",
+      "filtration_date": "2023-10-03",
+      "clarity_level": 1.3
+    }
+  ],
+  "aging": [
+    {
+      "id": 401,
+      "batch_id": 1,
+      "barrel_type": "French Oak",
+      "start_date": "2023-08-30",
+      "end_date": "2024-02-28",
+      "aging_duration_months": 6,
+      "inspections_performed": "5",
+      "inspection_result": "Balanced aroma and flavor"
+    },
+    {
+      "id": 402,
+      "batch_id": 2,
+      "barrel_type": "American Oak",
+      "start_date": "2023-09-20",
+      "end_date": "2024-03-20",
+      "aging_duration_months": 6,
+      "inspections_performed": 4,
+      "inspection_result": "Strong oak flavor, good structure"
+    },
+    {
+      "id": 403,
+      "batch_id": 3,
+      "barrel_type": "Stainless Steel",
+      "start_date": "2023-07-28",
+      "end_date": "2024-01-28",
+      "aging_duration_months": 6,
+      "inspections_performed": 2,
+      "inspection_result": "Fresh and crisp taste"
+    },
+    {
+      "id": 404,
+      "batch_id": 4,
+      "barrel_type": "Hungarian Oak",
+      "start_date": "2023-10-18",
+      "end_date": "2024-04-18",
+      "aging_duration_months": 6,
+      "inspections_performed": 3,
+      "inspection_result": "Complex aroma with fruity notes"
+    },
+    {
+      "id": 405,
+      "batch_id": 5,
+      "barrel_type": "French Oak",
+      "start_date": "2023-09-30",
+      "end_date": "2024-03-30",
+      "aging_duration_months": 6,
+      "inspections_performed": 5,
+      "inspection_result": "Smooth texture with vanilla undertones"
+    }
+  ],
+  "bottling": [
+    {
+      "id": 1,
+      "batch_id": 1,
+      "bottling_date": "2023-05-10",
+      "bottle_size_ml": 750,
+      "number_of_bottles": "1100",
+      "label_type": "Classic",
+      "cork_type": "Natural"
+    },
+    {
+      "id": 2,
+      "batch_id": 2,
+      "bottling_date": "2023-06-15",
+      "bottle_size_ml": 500,
+      "number_of_bottles": 1200,
+      "label_type": "Modern",
+      "cork_type": "Synthetic"
+    },
+    {
+      "id": 3,
+      "batch_id": 3,
+      "bottling_date": "2023-07-20",
+      "bottle_size_ml": 750,
+      "number_of_bottles": 950,
+      "label_type": "Vintage",
+      "cork_type": "Screw Cap"
+    },
+    {
+      "id": 4,
+      "batch_id": 4,
+      "bottling_date": "2023-08-05",
+      "bottle_size_ml": 1000,
+      "number_of_bottles": 800,
+      "label_type": "Artisan",
+      "cork_type": "Cork"
+    },
+    {
+      "id": 5,
+      "batch_id": 5,
+      "bottling_date": "2023-09-12",
+      "bottle_size_ml": 375,
+      "number_of_bottles": 1500,
+      "label_type": "Minimalist",
+      "cork_type": "Synthetic"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cabernet Sauvignon",
+      "grape_variety": "Cabernet Sauvignon",
+      "wine_type": "Red",
+      "origin": "Napa Valley, California",
+      "alcohol_content": 14.5,
+      "price": 29.99,
+      "food_pairing": "Red meats, aged cheeses.",
+      "quantity": "60",
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 2,
+      "name": "Chardonnay",
+      "grape_variety": "Chardonnay",
+      "wine_type": "White",
+      "origin": "Loire Valley, France",
+      "alcohol_content": 13,
+      "price": 24.5,
+      "food_pairing": "Fish, poultry, salads.",
+      "quantity": 150,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 3,
+      "name": "Rosé de Provence",
+      "grape_variety": "Grenache, Syrah",
+      "wine_type": "Rosé",
+      "origin": "Provence, France",
+      "alcohol_content": 12.5,
+      "price": 19.99,
+      "food_pairing": "Appetizers, seafood, light dishes.",
+      "quantity": "100",
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 4,
+      "name": "Prosecco",
+      "grape_variety": "Glera",
+      "wine_type": "Sparkling",
+      "origin": "Veneto, Italy",
+      "alcohol_content": 11,
+      "price": 18,
+      "food_pairing": "Appetizers, pasta dishes, fruits.",
+      "quantity": 120,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 5,
+      "name": "Pisco Quebranta",
+      "grape_variety": "Quebranta",
+      "wine_type": "Pisco",
+      "origin": "Ica, Peru",
+      "alcohol_content": 40,
+      "price": 30,
+      "food_pairing": "Ceviche, criolla cuisine.",
+      "quantity": 80,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 6,
+      "name": "Malbec",
+      "grape_variety": "Malbec",
+      "wine_type": "Red",
+      "origin": "Mendoza, Argentina",
+      "alcohol_content": 14,
+      "price": 25,
+      "food_pairing": "Grilled meats, strong cheeses.",
+      "quantity": 90,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 7,
+      "name": "Sauvignon Blanc",
+      "grape_variety": "Sauvignon Blanc",
+      "wine_type": "White",
+      "origin": "Marlborough, New Zealand",
+      "alcohol_content": 12.5,
+      "price": 22,
+      "food_pairing": "Salads, seafood, Asian cuisine.",
+      "quantity": 110,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 8,
+      "name": "Zinfandel",
+      "grape_variety": "Zinfandel",
+      "wine_type": "Red",
+      "origin": "California, USA",
+      "alcohol_content": 15,
+      "price": 27.5,
+      "food_pairing": "Barbecues, pasta with strong sauces.",
+      "quantity": 70,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 9,
+      "name": "Vinho Verde",
+      "grape_variety": "Alvarinho",
+      "wine_type": "White",
+      "origin": "Minho, Portugal",
+      "alcohol_content": 9,
+      "price": 15,
+      "food_pairing": "Seafood, appetizers.",
+      "quantity": 130,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    },
+    {
+      "id": 10,
+      "name": "Pisco Acholado",
+      "grape_variety": "Acholado",
+      "wine_type": "Pisco",
+      "origin": "Ica, Peru",
+      "alcohol_content": 38,
+      "price": 32,
+      "food_pairing": "Ceviche, criolla cuisine.",
+      "quantity": 60,
+      "image": "https://licoreriasunidas.pe/cdn/shop/products/8f269f6f715146718b76ecfbfe8328fb.webp?v=1677856601"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "person_name": "Gonzalo ",
+      "dni": "75135968",
+      "email": "gonzal@gmail.com",
+      "business_name": "Distribuidora Vinos del Sur",
+      "phone": "996 935 986",
+      "address": "Calle Principal 123, Miraflores, Lima",
+      "country": "Peru",
+      "city": "Lima",
+      "ruc": "20123456788"
+    },
+    {
+      "id": 2,
+      "person_name": "Maria Rodrigue",
+      "dni": "45678912",
+      "email": "maria.r@example.com",
+      "business_name": "Café Aroma",
+      "phone": "987 654 324",
+      "address": "Av. Larco 450, Barranco, Lima",
+      "country": "Peru",
+      "city": "Lima",
+      "ruc": "20987654321"
+    },
+    {
+      "id": 3,
+      "person_name": "Carlos Mendoza",
+      "dni": "32165498",
+      "email": "cmendoza@example.com",
+      "business_name": "Textiles Andinos",
+      "phone": "951 753 852",
+      "address": "Jr. Cusco 789, Cercado de Lima",
+      "country": "Peru",
+      "city": "Lima",
+      "ruc": "20456789012"
+    }
+  ]
+}
